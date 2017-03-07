@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+<body>
+
+ <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Primary title
+        </h1>
+        <h2 class="subtitle">
+          Primary subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="columns">
+    <div class="column is-half is-offset-one-quarter">
+      <label class="label">Name(Required)</label>
+      <p class="control">
+        <input class="input" type="text" placeholder="Name" id="name" >
+      </p>
+
+       <label class="label">Link to Photo Image(Required)</label>
+      <p class="control">
+        <input class="input" type="text" placeholder="Link to Image" id="imgLink" >
+      </p>
+      
+      
+      <label class="label">Question 1</label>
+      <p class="control">
+        <span class="select">
+          <select id="1">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+       <label class="label">Question 2</label>
+      <p class="control">
+        <span class="select">
+          <select id="2">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+       <label class="label">Question 3</label>
+      <p class="control">
+        <span class="select">
+          <select id="3">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+       <label class="label">Question 4</label>
+      <p class="control">
+        <span class="select">
+          <select id="4">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+       <label class="label">Question 5</label>
+      <p class="control">
+        <span class="select">
+          <select id="5">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+       <label class="label">Question 6</label>
+      <p class="control">
+        <span class="select">
+          <select id="6">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+       <label class="label">Question 7</label>
+      <p class="control">
+        <span class="select">
+          <select id="7">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+       <label class="label">Question 8</label>
+      <p class="control">
+        <span class="select">
+          <select id="8">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+       <label class="label">Question 9</label>
+      <p class="control">
+        <span class="select">
+          <select id="9">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+       <label class="label">Question 10</label>
+      <p class="control">
+        <span class="select">
+          <select id="10">
+            <option>Select an Option</option>
+            <option value="1" >1 (Strongly Disagree)</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5 (Strongly Agree)</option>
+          </select>
+        </span>
+      </p>
+      
+      <div class="control is-grouped">
+        <p class="control">
+          <button class="button is-primary" id="getResults">Submit</button>
+        </p>
+        <p class="control">
+          <button class="button is-link">Cancel</button>
+        </p>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+  var friendsScore = []; 
+
+  $("#getResults").on("click", function(event) {
+
+    for(var i=1;i<11;i++){
+      friendsScore.push($("#"+i.toString()).val());
+    }
+
+    event.preventDefault();
+    var newFriend = {
+      name: $("#name").val().trim(),
+      photo: $("#imgLink").val().trim(),
+      scores: friendsScore,
+    };
+
+    console.log(newFriend)
+
+    $.post("/api/new", newFriend)
+    .done(function(data) {
+      console.log(data);
+      alert("Adding friend...");
+    });
+  });
+</script>
+
+</body>
+</html>

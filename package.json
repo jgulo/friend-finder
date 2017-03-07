@@ -1,0 +1,27 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgulo/friend-finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgulo/friend-finder/issues"
+  },
+  "homepage": "https://github.com/jgulo/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "bulma": "^0.3.2",
+    "express": "^4.15.0",
+    "materialize-css": "^0.98.0",
+    "path": "^0.12.7"
+  }
+}
